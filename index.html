@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play the ultimate Snake game with 10 unique levels, multiple game modes, and exciting power-ups. Fast-paced arcade action!">
+    <meta name="keywords" content="snake game, arcade game, browser game, phaser game, online game">
+    <title>Ultimate Snake Game - 10 Levels & Multiple Modes</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="loading-screen">
+            <h1>🐍 Ultimate Snake</h1>
+            <p>Loading...</p>
+        </div>
+    </div>
+
+    <!-- Phaser 3 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+    
+    <!-- Game Configuration -->
+    <script src="src/config.js"></script>
+    
+    <!-- Utilities -->
+    <script src="src/utils/GridHelper.js"></script>
+    <script src="src/utils/ScoreManager.js"></script>
+    
+    <!-- Entities -->
+    <script src="src/entities/Snake.js"></script>
+    <script src="src/entities/Food.js"></script>
+    <script src="src/entities/AISnake.js"></script>
+    
+    <!-- Levels -->
+    <script src="src/levels/LevelManager.js"></script>
+    <script src="src/levels/Level1.js"></script>
+    <script src="src/levels/Level2.js"></script>
+    <script src="src/levels/Level3.js"></script>
+    <script src="src/levels/Level4.js"></script>
+    <script src="src/levels/Level5.js"></script>
+    <script src="src/levels/Level6.js"></script>
+    <script src="src/levels/Level7.js"></script>
+    <script src="src/levels/Level8.js"></script>
+    <script src="src/levels/Level9.js"></script>
+    <script src="src/levels/Level10.js"></script>
+    
+    <!-- UI -->
+    <script src="src/ui/HUD.js"></script>
+    <script src="src/ui/PauseMenu.js"></script>
+    
+    <!-- Scenes -->
+    <script src="src/scenes/PreloadScene.js"></script>
+    <script src="src/scenes/MenuScene.js"></script>
+    <script src="src/scenes/GameScene.js"></script>
+    <script src="src/scenes/GameOverScene.js"></script>
+    
+    <!-- Main Entry -->
+    <script src="src/main.js"></script>
+</body>
+</html>
